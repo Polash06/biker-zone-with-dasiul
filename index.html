@@ -35,7 +35,7 @@
 </style>
 </head>
 <body class="font-popinc">
-   <header class="md:container md:mx-auto">
+   <header class="md:container md:mx-auto lg:mx-auto">
      <nav>
         <div class="navbar bg-base-100">
             <div class="flex-1">
@@ -147,9 +147,9 @@
       <!--  feature bike -->
       <section class="my-25">
      <div>
-        <h2 class="text-5xl font-semibold mt-20 px-80">Fetured Bikes In This Year</h2><p class="text-center text-red-800 pb-12">Best bike collection</p>
+        <h2 class="text-5xl font-semibold mt-40 px-80">Fetured Bikes In This Year</h2><p class="text-center text-red-800 pb-12">Best bike collection</p>
      </div>
-       <div class="flex gap-x-60">
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex gap-50 py-20">
         <img src="images/others/feature-bike.png" alt="">
         <img src="images/others/feature-bike.png" alt="">
         <img src="images/others/feature-bike.png" alt="">
@@ -264,9 +264,67 @@
           </div>
         </div>
       </section>
+      <!-- FAQ -->
+      <section class="my-24">
+        <h3 class="text-5xl mb-12 font-semibold text-center">Frequently Asked  <span class="text-bike-primary">Questions</span></h3>
+        <div class="hero min-h-screen bg-base-200">
+          <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+            <img src="/images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <h1 class="text-2xl">What are the most important things I should
+                know about riding a bike?</h1>
+              <p class="py-6">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                 Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
    </main> 
-   <footer>
-     
-   </footer>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <div class="inline">
+        <p>Download Now License<br>
+        About
+        Features
+        Pricing
+        Careers
+        Help
+        Privacy Policy<br></p>
+        <p>© 2020 bike. All rights reserved</p>
+      </div> 
+      <div>
+        <span class="footer-title">Social</span> 
+        <div class="grid grid-col-1 gap-4">
+          <a><img class="w-36" src="images/others/android.png" alt=""></a>
+          <a><img class="w-36" src="images/others/ios.png" alt="" srcset=""></a>
+
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
